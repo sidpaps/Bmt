@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(270deg, #0c1a2a, #4c2c16, #081019);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 23s ease infinite;
+  -moz-animation: AnimationName 23s ease infinite;
+  animation: AnimationName 50s ease infinite; 
+  background-color: #ffffff;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ 
+
+/* .gradient-bg-welcome {
+  background-color:#0f0e13;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(100,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, rgb(15, 10, 79) 0, transparent 50%);
+} */
+
+.gradient-bg-welcome {
+   background: linear-gradient(270deg, #0c1a2a, #6d3f1f, #081019);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 23s ease infinite;
+  -moz-animation: AnimationName 23s ease infinite;
+  animation: AnimationName 50s ease infinite; 
+  background-color: #fcfcfc00;
+opacity:1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #00000047 250px ), repeating-linear-gradient( #00000000, #00000000);
+
+}
+
+
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 60%}
+  50%{background-position:100% 60%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 60%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 60%}
+}
+
+
+.blue-glassmorphism {
+  
+  background: rgba(89, 65, 39, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 180, 106, 0.3);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.eth-card {
+  background-color: #ffa869;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffa869; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader-logo {
+  width: 100px; /* Adjust size as needed */
+  height: 100px;
+  animation: spin 2s ease-in-out infinite;
+}
+
+@keyframes spin {
+  0% { 
+    transform: rotate(0deg);
+    opacity: 0.5; /* Start with a slight fade */
+  }
+  50% {
+    transform: rotate(180deg);
+    opacity: 1; /* Fully visible at halfway point */
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0.5; /* Fade out slightly at end */
+  }
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
