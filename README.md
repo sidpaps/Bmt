@@ -61,9 +61,9 @@ npm run dev
 
 ## Author
 
-Sidharth Padmanabhan - Lead Developer and Project Maintainer
-Harshavardhan KM - Developer
-Muhammed Sahal KS - Developer
+- Sidharth Padmanabhan - Lead Developer and Project Maintainer
+- Harshavardhan KM - Developer
+- Muhammed Sahal KS - Developer
 
 ## Contributing
 
