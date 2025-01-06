@@ -61,7 +61,9 @@ npm run dev
 
 ## Author
 
-Avasid - Lead Developer and Project Maintainer
+Sidharth Padmanabhan - Lead Developer and Project Maintainer
+Harshavardhan KM - Developer
+Muhammed Sahal KS - Developer
 
 ## Contributing
 
